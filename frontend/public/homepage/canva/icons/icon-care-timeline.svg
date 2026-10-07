@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Care timeline icon</title>
+  <path d="M256 86v340" fill="none" stroke="#0E2A3A" stroke-width="22" stroke-linecap="round"/>
+  <circle cx="256" cy="142" r="28" fill="#8FC4DF"/>
+  <circle cx="256" cy="256" r="28" fill="#237B66"/>
+  <circle cx="256" cy="370" r="28" fill="#F0A08B"/>
+  <path d="M305 142h78M130 256h77M305 370h78" fill="none" stroke="#0E2A3A" stroke-width="22" stroke-linecap="round"/>
+</svg>

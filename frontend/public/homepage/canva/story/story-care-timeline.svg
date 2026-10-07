@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-labelledby="title">
+  <title id="title">Care follow-up timeline</title>
+  <defs>
+    <linearGradient id="line" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8FC4DF"/><stop offset=".55" stop-color="#237B66"/><stop offset="1" stop-color="#F0A08B"/></linearGradient>
+  </defs>
+  <rect width="900" height="900" fill="none"/>
+  <path d="M455 120C390 230 506 305 455 420C407 528 506 604 455 780" fill="none" stroke="url(#line)" stroke-width="8" stroke-linecap="round"/>
+  <g fill="#0E2A3A">
+    <circle cx="455" cy="150" r="16" fill="#237B66" stroke="#FFFDF8" stroke-width="8"/>
+    <path d="M510 150h170" stroke="#0E2A3A" stroke-width="16" stroke-linecap="round" opacity=".08"/>
+    <circle cx="455" cy="345" r="16" fill="#237B66" stroke="#FFFDF8" stroke-width="8"/>
+    <path d="M510 345h210" stroke="#0E2A3A" stroke-width="16" stroke-linecap="round" opacity=".08"/>
+    <circle cx="455" cy="540" r="16" fill="#237B66" stroke="#FFFDF8" stroke-width="8"/>
+    <path d="M510 540h180" stroke="#0E2A3A" stroke-width="16" stroke-linecap="round" opacity=".08"/>
+    <circle cx="455" cy="735" r="16" fill="#237B66" stroke="#FFFDF8" stroke-width="8"/>
+    <path d="M510 735h220" stroke="#0E2A3A" stroke-width="16" stroke-linecap="round" opacity=".08"/>
+  </g>
+  <path d="M250 245C218 332 230 412 286 486" fill="none" stroke="#8FC4DF" stroke-width="3" opacity=".3"/>
+  <path d="M650 470C706 550 708 632 664 718" fill="none" stroke="#F0A08B" stroke-width="3" opacity=".3"/>
+</svg>

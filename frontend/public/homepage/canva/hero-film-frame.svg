@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1100" viewBox="0 0 1600 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Babycare hero visual</title>
+  <desc id="desc">Soft baby-care product-film composition with waveform, baby profile, risk indicator, and report layer.</desc>
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A7D8EF"/>
+      <stop offset="1" stop-color="#237B66"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFF4E9"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="30" stdDeviation="34" flood-color="#173140" flood-opacity=".12"/>
+    </filter>
+    <filter id="blurGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1100" fill="none"/>
+  <ellipse cx="760" cy="560" rx="590" ry="390" fill="#FFFFFF" opacity=".36"/>
+  <ellipse cx="640" cy="430" rx="420" ry="250" fill="#8FC4DF" opacity=".11" filter="url(#blurGlow)"/>
+  <ellipse cx="1040" cy="675" rx="350" ry="260" fill="#F0A08B" opacity=".09" filter="url(#blurGlow)"/>
+  <path d="M205 772C326 661 497 634 696 681C930 736 1081 685 1224 560" fill="none" stroke="#B6E5CF" stroke-width="2" opacity=".32"/>
+  <g transform="translate(250 260)" opacity=".18" filter="url(#softShadow)">
+    <rect x="585" y="0" width="420" height="560" rx="34" fill="url(#paper)"/>
+    <path d="M640 92H930M640 157H865M640 222H910" stroke="#0E2A3A" stroke-width="12" stroke-linecap="round" opacity=".13"/>
+    <path d="M640 338H930M640 402H850" stroke="#8FC4DF" stroke-width="10" stroke-linecap="round" opacity=".35"/>
+  </g>
+  <g transform="translate(160 310)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="880" height="420" rx="210" fill="#FFFDF8" opacity=".36"/>
+    <g transform="translate(95 70)">
+      <rect x="0" y="78" width="28" height="174" rx="14" fill="url(#wave)"/>
+      <rect x="52" y="24" width="34" height="280" rx="17" fill="url(#wave)"/>
+      <rect x="110" y="74" width="32" height="180" rx="16" fill="url(#wave)"/>
+      <rect x="168" y="104" width="30" height="120" rx="15" fill="url(#wave)"/>
+      <rect x="224" y="54" width="32" height="220" rx="16" fill="url(#wave)"/>
+      <rect x="282" y="36" width="34" height="260" rx="17" fill="url(#wave)"/>
+      <rect x="342" y="96" width="30" height="136" rx="15" fill="url(#wave)"/>
+      <rect x="396" y="56" width="34" height="220" rx="17" fill="url(#wave)"/>
+      <rect x="456" y="0" width="36" height="328" rx="18" fill="url(#wave)"/>
+      <rect x="520" y="72" width="32" height="184" rx="16" fill="url(#wave)"/>
+      <rect x="578" y="34" width="34" height="260" rx="17" fill="url(#wave)"/>
+      <rect x="638" y="88" width="30" height="150" rx="15" fill="url(#wave)"/>
+      <rect x="694" y="18" width="34" height="292" rx="17" fill="url(#wave)"/>
+    </g>
+  </g>
+  <g transform="translate(830 650)" filter="url(#softShadow)">
+    <circle cx="105" cy="105" r="88" fill="#FFFDF8" opacity=".88"/>
+    <circle cx="105" cy="105" r="92" fill="none" stroke="#F0A08B" stroke-width="18" stroke-dasharray="196 420" stroke-linecap="round" transform="rotate(-86 105 105)"/>
+    <circle cx="105" cy="105" r="70" fill="#FFFDF8"/>
+    <text x="105" y="88" direction="rtl" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#237B66">مراقبة قريبة</text>
+    <text x="105" y="137" text-anchor="middle" font-family="Arial, sans-serif" font-size="64" font-weight="800" fill="#0E2A3A">34</text>
+    <text x="105" y="165" direction="rtl" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#667987">قرار أوضح</text>
+  </g>
+  <g transform="translate(250 720)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="560" height="142" rx="71" fill="#FFFDF8" opacity=".78"/>
+    <circle cx="476" cy="71" r="54" fill="#EFFBF5" stroke="#B6E5CF" stroke-width="2"/>
+    <circle cx="476" cy="71" r="31" fill="#F8CDBB"/>
+    <circle cx="466" cy="64" r="5" fill="#0E2A3A"/>
+    <circle cx="488" cy="64" r="5" fill="#0E2A3A"/>
+    <path d="M462 84C474 95 488 95 500 84" fill="none" stroke="#0E2A3A" stroke-width="5" stroke-linecap="round"/>
+    <text x="360" y="58" direction="rtl" text-anchor="end" font-family="Arial, sans-serif" font-size="24" fill="#667987">ليان</text>
+    <text x="360" y="98" direction="rtl" text-anchor="end" font-family="Arial, sans-serif" font-size="44" font-weight="800" fill="#0E2A3A">4 شهور</text>
+  </g>
+</svg>

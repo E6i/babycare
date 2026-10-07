@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Doctor report icon</title>
+  <path d="M160 78h150l78 80v276H160z" fill="none" stroke="#0E2A3A" stroke-width="24" stroke-linejoin="round"/>
+  <path d="M310 78v86h78" fill="none" stroke="#0E2A3A" stroke-width="24" stroke-linejoin="round"/>
+  <path d="M204 224h132M204 284h104M204 344h132" fill="none" stroke="#8FC4DF" stroke-width="22" stroke-linecap="round"/>
+  <path d="M354 392h-72" fill="none" stroke="#F0A08B" stroke-width="18" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Risk follow-up icon</title>
+  <circle cx="256" cy="256" r="146" fill="none" stroke="#0E2A3A" stroke-width="24"/>
+  <path d="M256 110a146 146 0 0 1 126 72" fill="none" stroke="#F0A08B" stroke-width="28" stroke-linecap="round"/>
+  <path d="M218 270l30 30 62-82" fill="none" stroke="#237B66" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

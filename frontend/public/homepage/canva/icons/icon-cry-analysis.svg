@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Cry analysis icon</title>
+  <g fill="none" stroke="#0E2A3A" stroke-width="24" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M106 280c38-56 84-84 138-84s101 28 140 84"/>
+    <path d="M144 320h224"/>
+    <path d="M166 166c24-24 54-36 90-36s66 12 90 36"/>
+    <path d="M150 238v64M208 212v116M266 228v82M324 206v126M382 246v48"/>
+  </g>
+  <circle cx="404" cy="150" r="30" fill="#F0A08B"/>
+</svg>

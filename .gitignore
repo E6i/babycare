@@ -1,0 +1,32 @@
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+# Dependencies and generated output
+node_modules
+.next/
+out/
+coverage/
+*.tsbuildinfo
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+# Private runtime data
+backups/
+uploads/
+recordings/
+tmp/
+*.log
+*.dump
+*.sql.gz
+*.sqlite*
+*.db
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/

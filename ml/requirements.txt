@@ -1,0 +1,31 @@
+# Core ML
+# best_model.keras was saved with Keras 3 serialization (keras.src.*),
+# so inference must run on a TensorFlow/Keras 3 compatible stack.
+tensorflow==2.17.1
+keras==3.12.2
+
+# Audio processing
+librosa==0.10.0
+soundfile==0.12.1
+# noisereduce تم حذفه لأنه قد يقلل الدقة في بيئات معينة، نعتمد على Normalization
+
+# Data science
+numpy==1.23.5
+pandas==1.5.3
+scikit-learn==1.2.2
+joblib==1.2.0
+imbalanced-learn==0.10.1
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Backend (ضروري لتشغيل main.py)
+fastapi==0.95.1
+uvicorn==0.22.0
+python-multipart==0.0.6
+
+# Utilities
+tqdm==4.65.0
+typing-extensions==4.14.1
+setuptools<81

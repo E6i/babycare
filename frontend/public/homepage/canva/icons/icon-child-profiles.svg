@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Child profiles icon</title>
+  <circle cx="256" cy="190" r="76" fill="none" stroke="#0E2A3A" stroke-width="24"/>
+  <path d="M132 400c26-72 68-108 124-108s98 36 124 108" fill="none" stroke="#0E2A3A" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="148" cy="182" r="42" fill="none" stroke="#8FC4DF" stroke-width="20"/>
+  <circle cx="364" cy="182" r="42" fill="none" stroke="#B6E5CF" stroke-width="20"/>
+</svg>
