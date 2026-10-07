@@ -17,3 +17,9 @@ Observed model input/output shapes were `(None, 128, 128, 3)` and `(None, 5)`. P
 A synthetic three-second, 440 Hz sine wave with amplitude 0.1 produced a `(128, 128, 3)` feature tensor with values spanning 0–1. Three calls on the same tensor with `training=False` produced identical score vectors in this runtime (maximum difference 0.0). This observation does not prove determinism for every runtime or training mode. The synthetic tone received a high class score despite not being an infant cry, illustrating why softmax confidence must not be interpreted as validated real-world reliability.
 
 The CLI silence smoke check passed using a generated three-second silent WAV: `background`, confidence `1.0`, signal quality `low`. This confirms the amplitude-gate behavior, not classifier accuracy. Regenerating the implementation reference produced identical bytes, documentation file links resolved, and `git diff --check` passed. No real child recording or external service was used for these checks.
+
+## GitHub publication verification
+
+The initial publication to [E6i/babycare](https://github.com/E6i/babycare) was fetched back from GitHub and compared with the local publication copy. All 132 files matched, including the model blob.
+
+[GitHub Actions run 37694134722](https://github.com/E6i/babycare/actions/runs/37694134722) could not start its job because GitHub reported an account billing lock. No CI steps executed. This is an account-level blocker, not a passing or failing application test result. The local preparation and model checks described above remain the available verification evidence.
